@@ -1,0 +1,36 @@
+div  {
+    text-align: center;
+}
+li {
+    padding: .5em;
+    margin: .5em auto;
+    margin-right: 2em;
+    background: lightgray;
+    list-style-type: none;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+@media screen and (min-width:576px) {
+    body {
+    margin: 0;
+
+    }
+    div{
+        flex-basis: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+    .container {
+        width: 90%;
+        max-width: 1400px;
+    }
+    div {
+        flex-basis: 50%;
+    }
+}
